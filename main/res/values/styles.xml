@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#82F301</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+    </style>
+    <style name="AppTheme.Light.NoActionBar" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <item name="android:colorControlNormal">@android:color/holo_blue_light</item>
+        <item name="colorControlActivated">@android:color/holo_blue_light</item>
+    </style>
+    <style name="MyStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:colorControlNormal">@android:color/holo_blue_light</item>
+        <item name="colorControlActivated">@android:color/holo_blue_light</item>
+    </style>
+    <style name="myButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:colorControlNormal">@android:color/holo_blue_light</item>
+        <item name="colorControlActivated">@android:color/holo_blue_light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorHint">@android:color/background_light</item>
+        <item name="android:backgroundTint">@android:color/holo_green_light</item>
+        <item name="android:textSize">17dp</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+    <style name="myEditTExt" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:inputType">text</item>
+        <item name="android:gravity">left</item>
+
+    </style>
+    <style name="TextAppearance.Design.Hint" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?attr/colorControlActivated</item>
+    </style>
+    <style name="InputLabel" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:paddingBottom">@dimen/input_label_vertical_spacing</item>
+        <item name="android:paddingLeft">@dimen/input_label_horizontal_spacing</item>
+        <item name="android:paddingRight">@dimen/input_label_horizontal_spacing</item>
+    </style>
+</resources>
+

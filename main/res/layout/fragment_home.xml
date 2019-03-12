@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".ui.main.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="9">
+        <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+            <TextView
+                    android:id="@+id/textGrid"
+                    android:text="LAYANAN JAMKRINDO"
+                    android:textSize="34sp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <GridLayout
+                android:id="@+id/mainGrid"
+                android:rowCount="3"
+                android:columnCount="2"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false"
+                android:layout_weight="8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+            <!-- ROW 1  -->
+            <!-- COLUMN 1  -->
+            <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="16dp" android:layout_marginTop="16dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    android:clickable="true"
+                    android:id="@+id/penawaran"
+                    app:cardCornerRadius="8dp" android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:src="@drawable/ic_attach_money_black_24dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:tint="@color/colorAccent"
+
+                    />
+
+                    <TextView
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:text="Jasa Penawaran"
+                            android:textColor="#000"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- COLUMN 2  -->
+            <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="16dp" android:layout_marginTop="16dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    android:clickable="true"
+                    android:id="@+id/uangMuka"
+                    app:cardCornerRadius="8dp" android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:src="@drawable/ic_attach_money_black_24dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:tint="#EB3D3D"
+
+                    />
+
+                    <TextView
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:text="Jasa Uang Muka"
+                            android:textColor="#000"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- ROW 2  -->
+            <!-- COLUMN 1  -->
+            <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="16dp" android:layout_marginTop="16dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    android:clickable="true"
+                    android:id="@+id/pelaksanaan"
+                    app:cardCornerRadius="8dp" android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:src="@drawable/ic_attach_money_black_24dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:tint="#284CD8"
+
+                    />
+
+                    <TextView
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:text="Jasa Pelaksanaan"
+                            android:textColor="#000"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="16dp" android:layout_marginTop="16dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    android:clickable="true"
+                    android:id="@+id/pembayaran"
+                    app:cardCornerRadius="8dp" android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:src="@drawable/ic_attach_money_black_24dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:tint="#F0BA53"
+
+                    />
+
+                    <TextView
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:text="Jasa Pembayaran"
+                            android:textColor="#000"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_marginBottom="16dp" android:layout_marginTop="16dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:cardElevation="8dp"
+                    android:clickable="true"
+                    android:id="@+id/pemeliharaan"
+                    app:cardCornerRadius="8dp" android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:src="@drawable/ic_attach_money_black_24dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:tint="#BF37D8"
+
+                    />
+
+                    <TextView
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:text="Jasa Pemeliharaan"
+                            android:textColor="#000"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <!-- COLUMN 2  -->
+        </GridLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

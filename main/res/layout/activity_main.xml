@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" >
+
+    <TextView
+            android:id="@+id/selamatDatang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELAMAT DATANG DI \nJAMKRINDO "
+            android:textSize="25dp"
+            android:gravity="center_horizontal"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.13"/>
+    <ImageButton
+            android:id="@+id/IB_jaminanPenawaran"
+            android:layout_width="72dp"
+            android:layout_height="106dp"
+            android:contentDescription="Fitur 1"
+            app:layout_constraintTop_toBottomOf="@id/selamatDatang"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="44dp"
+            app:layout_constraintHorizontal_bias="0.103"
+            android:adjustViewBounds="false"
+            android:background="@android:color/holo_blue_bright"/>
+    <TextView
+            android:text="Jaminan \nPenawaran"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/IB_jaminanPenawaran"
+            app:layout_constraintRight_toRightOf="parent"
+
+            android:layout_marginTop="8dp" android:layout_marginRight="304dp"/>
+    <ImageButton
+            android:layout_width="72dp"
+            android:layout_height="106dp"
+            android:contentDescription="Fitur 2"
+            app:layout_constraintTop_toBottomOf="@id/selamatDatang"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            android:layout_marginTop="44dp"
+            app:layout_constraintHorizontal_bias="0.528"
+            android:id="@+id/IB_jaminanUangMuka"
+            android:background="@android:color/holo_green_dark"/>
+    <TextView
+            android:text="Jaminan \nUang Muka"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/IB_jaminanUangMuka"
+            app:layout_constraintRight_toRightOf="parent"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="160dp"/>
+    <ImageButton
+            android:layout_width="72dp"
+            android:layout_height="106dp"
+            android:contentDescription="Fitur 3"
+            app:layout_constraintTop_toBottomOf="@id/selamatDatang"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            android:layout_marginTop="44dp"
+            app:layout_constraintHorizontal_bias="0.952"
+            android:id="@+id/IB_jaminanPelaksanaan"
+            android:background="@android:color/holo_orange_light"/>
+    <TextView
+            android:text="Jaminan \nPelaksanaan"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/IB_jaminanPelaksanaan"
+            app:layout_constraintRight_toRightOf="parent"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"/>
+    <ImageButton
+
+            android:layout_width="72dp"
+            android:layout_height="106dp"
+            android:contentDescription="Fitur 4"
+            app:layout_constraintTop_toBottomOf="@id/selamatDatang"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            android:layout_marginTop="224dp"
+            app:layout_constraintHorizontal_bias="0.315"
+            android:id="@+id/IB_jaminanPembayaran"
+            android:background="@android:color/holo_purple"/>
+    <TextView
+            android:text="Jaminan \nPembayaran"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/IB_jaminanPembayaran"
+            app:layout_constraintRight_toRightOf="parent"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="228dp"/>
+    <ImageButton
+            android:layout_width="72dp"
+            android:layout_height="106dp"
+            android:contentDescription="Fitur 5"
+            app:layout_constraintTop_toBottomOf="@id/selamatDatang"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            android:layout_marginTop="224dp"
+            app:layout_constraintHorizontal_bias="0.74"
+            android:id="@+id/IB_jaminanPemeliharaan"
+            android:background="@android:color/holo_red_dark"/>
+    <TextView
+            android:text="Jaminan \nPemeliharaan"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/IB_jaminanPemeliharaan"
+            app:layout_constraintRight_toRightOf="parent"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="76dp"/>
+
+</android.support.constraint.ConstraintLayout>

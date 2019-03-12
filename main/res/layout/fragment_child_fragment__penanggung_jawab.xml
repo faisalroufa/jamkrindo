@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ui.formulir_A.subFragmentKeseluruhanData.ChildFragment_PenanggungJawab">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+    >
+
+        <TextView
+                android:id="@+id/dataNamaPenangungJawab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"/>
+        <TextView
+                android:id="@+id/dataNIKPenanggungJawab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIK"/>
+        <TextView
+                android:id="@+id/dataNoTelpPenangungJawab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Telepon"/>
+        <TextView
+                android:id="@+id/dataEmailPenangungJawab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"/>
+        <TextView
+                android:id="@+id/dataJabatanPenangungJawab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jabatan"/>
+    </LinearLayout>
+
+
+</FrameLayout>

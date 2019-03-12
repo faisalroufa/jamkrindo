@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".RegistrasiActivity"
+              android:orientation="vertical"
+>
+        <TextView
+                android:text="@string/kode_validasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="100dp"
+                android:textSize="20dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                app:layout_constraintBottom_toTopOf="@+id/textInputLayout"/>
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textInputLayout"
+                android:layout_marginHorizontal="70dp"
+                app:hintEnabled="true"
+                android:hint="Kode Validasi"
+                android:theme="@style/AppTheme"
+        >
+
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/kode_validasi"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.button.MaterialButton
+                android:text="Enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/enterCode"
+                android:textColor="#fff"
+                style="@style/Theme.MaterialComponents"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="70dp"
+                android:theme="@style/myButton"
+
+        />
+</LinearLayout>

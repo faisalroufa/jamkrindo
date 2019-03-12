@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".ui.formulir_A.form1_fragment_satu" android:background="#ffff">
+
+    
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Apakah terjamin pernah wanprestasi dan diajukan klaim oleh penerima jaminan \nke penjamin?"
+                android:padding="10dp"
+                android:gravity="center"
+        />
+        <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/pilihanWanprestasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pilih Jawaban"
+                android:theme="@style/AppTheme"
+                android:dropDownSelector="@color/colorAccent"
+                android:padding="10dp"/>
+        <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="25dp"-->
+                <!--android:text="Apabila pernah wanprestasi dan pernah klaim, bagaimana keadaan subrogasinya?"-->
+                <!--android:padding="10dp"-->
+                <!--android:gravity="center"-->
+        <!--/>-->
+        <!--<Spinner-->
+                <!--android:id="@+id/pilihanSubrogasi"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:hint="Pilih Jawaban"-->
+                <!--android:padding="10dp"-->
+
+                <!--android:theme="@style/AppTheme"-->
+                <!--android:inputType="textMultiLine"-->
+
+        <!--/>-->
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/frame_subrogasi">
+
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

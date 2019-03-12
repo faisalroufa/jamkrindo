@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".ui.formulir_A.form1_fragment_satu" android:background="#ffff">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp">
+        <TextView
+                android:id="@+id/tv_fragment1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Data Perusahaan Penerima Jaminan"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+        />
+        <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Perusahaan"
+                app:hintEnabled="true"
+                app:layout_anchorGravity="center_horizontal"
+                android:theme="@style/AppTheme"
+                android:layout_marginHorizontal="70dp"
+        >
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/namaPerusahaanPenerimaJaminan"
+                    android:inputType="text"
+                    android:layout_marginBottom="10dp"
+            />
+
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bentuk Badan Hukum"
+                android:layout_marginLeft="70dp"
+                style="@style/InputLabel" />
+        <Spinner
+                    android:id="@+id/bentukBadanHukum"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:theme="@style/AppTheme"
+                    android:inputType="textMultiLine"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="60dp"
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status Badan Hukum"
+                android:layout_marginLeft="70dp"
+                style="@style/InputLabel"/>
+        <Spinner
+                android:id="@+id/statusBadanHukum"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Jenis Badan Hukum"
+                android:theme="@style/AppTheme"
+                android:inputType="textMultiLine"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="60dp"
+
+        />
+        <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat"
+                app:hintEnabled="true"
+                app:layout_anchorGravity="center_horizontal"
+                android:theme="@style/AppTheme"
+                android:layout_marginHorizontal="70dp"
+        >
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/alamatPenerimaJaminan"
+                    android:inputType="textMultiLine"
+                    android:layout_marginBottom="10dp"
+
+            />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="70dp"
+                android:hint="Provinsi"
+                app:hintEnabled="true"
+                android:theme="@style/AppTheme">
+            <AutoCompleteTextView
+                    android:id="@+id/provinsiPenerimaJaminan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textAutoComplete"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kota"
+                android:layout_marginHorizontal="70dp"
+                android:theme="@style/AppTheme">
+            <AutoCompleteTextView
+                    android:id="@+id/kotaPenerimaJaminan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textAutoComplete"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kecamatan"
+                android:layout_marginHorizontal="70dp"
+                android:theme="@style/AppTheme"
+                app:hintEnabled="true">
+            <AutoCompleteTextView
+                    android:id="@+id/kecamatanPenerimaJaminan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textAutoComplete"
+
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme"
+                android:hint="Kelurahan"
+                android:layout_marginHorizontal="70dp">
+            <AutoCompleteTextView
+                    android:id="@+id/kelurahanPenerimaJaminan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textAutoComplete"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+</ScrollView>

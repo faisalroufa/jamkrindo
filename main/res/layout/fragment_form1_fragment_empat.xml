@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".ui.formulir_A.form1_fragment_satu" android:background="#ffff">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Data Person in Charge (PIC)"
+                android:gravity="center_horizontal"
+                android:layout_marginVertical="20dp"
+        />
+        <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="BOD"
+                app:hintEnabled="true"
+                app:layout_anchorGravity="center_horizontal"
+                android:theme="@style/AppTheme"
+                android:layout_marginHorizontal="60dp"
+        >
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/namaBODPIC"
+                    android:inputType="textPersonName"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama"
+                app:hintEnabled="true"
+                app:layout_anchorGravity="center_horizontal"
+                android:theme="@style/AppTheme"
+                android:layout_marginHorizontal="60dp"
+        >
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/namaPIC"
+                    android:inputType="textPersonName"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jabatan"
+                app:hintEnabled="true"
+                app:layout_anchorGravity="center_horizontal"
+                android:layout_gravity=""
+                android:theme="@style/AppTheme"
+                android:layout_marginHorizontal="60dp"
+        >
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/jabatanPIC"
+                    android:inputType="text"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NIK"
+                app:hintEnabled="true"
+                app:layout_anchorGravity="center_horizontal"
+                android:theme="@style/AppTheme"
+                android:layout_marginHorizontal="60dp"
+        >
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/NIKPIC"
+                    android:inputType="number"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nomer Telepon"
+                app:hintEnabled="true"
+                app:layout_anchorGravity="center_horizontal"
+                android:theme="@style/AppTheme"
+                android:layout_marginHorizontal="60dp"
+        >
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTelpPIC"
+                    android:inputType="phone"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                app:hintEnabled="true"
+                app:layout_anchorGravity="center_horizontal"
+                android:theme="@style/AppTheme"
+                android:layout_marginHorizontal="60dp"
+        >
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/emailPIC"
+                    android:inputType="phone"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--Nama*-->
+        <!--Jabatan*-->
+        <!--NIK-->
+        <!--No Telp*-->
+        <!--Email-->
+    </LinearLayout>
+</ScrollView>

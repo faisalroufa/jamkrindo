@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".ui.formulir_A.form1_fragment_satu" android:background="#ffff">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Data Penanggung Jawab \nBOC BOD Terjamin"
+                android:gravity="center_horizontal"
+                android:layout_marginVertical="20dp"
+        />
+            <android.support.design.widget.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama"
+                    app:hintEnabled="true"
+                    app:layout_anchorGravity="center_horizontal"
+                    android:theme="@style/AppTheme"
+                    android:layout_marginHorizontal="60dp"
+            >
+                <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/inputNamaBOD"
+                        android:inputType="textPersonName"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="NIK"
+                    app:hintEnabled="true"
+                    app:layout_anchorGravity="center_horizontal"
+                    android:theme="@style/AppTheme"
+                    android:layout_marginHorizontal="60dp"
+            >
+                <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/inputNIKBOD"
+                        android:inputType="number"
+                />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nomer Telepon"
+                    app:hintEnabled="true"
+                    app:layout_anchorGravity="center_horizontal"
+                    android:theme="@style/AppTheme"
+                    android:layout_marginHorizontal="60dp"
+            >
+                <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/inputNoTelpBOD"
+                        android:inputType="phone"
+                />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    app:hintEnabled="true"
+                    app:layout_anchorGravity="center_horizontal"
+                    android:theme="@style/AppTheme"
+                    android:layout_marginHorizontal="60dp"
+            >
+                <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/inputEmailBOD"
+                        android:inputType="textEmailAddress"
+                />
+            </android.support.design.widget.TextInputLayout>
+        <Spinner android:layout_width="match_parent"
+                 android:layout_height="40dp"
+                 android:id="@+id/jabatanBOD"
+                 android:hint="Pilih Jabatan"
+                 android:layout_marginHorizontal="60dp"
+                 android:theme="@style/AppTheme">
+
+        </Spinner>
+
+
+        <!--Nama*-->
+        <!--Jabatan*-->
+        <!--NIK-->
+        <!--No Telp*-->
+        <!--Email-->
+    </LinearLayout>
+</ScrollView>

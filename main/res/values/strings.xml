@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">Jamkrindo2</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="noHP">Nomer HP</string>
+    <string name="NamaPerusahaan">Nama Perusahaan</string>
+    <string name="AlamatPerusahaan">Alamat Perusahaan</string>
+    <string name="NamaPICTerjamin">Nama PIC Terjamin</string>
+    <string name="NoHPPICTerjamin">No HP PIC Terjamin</string>
+    <string name="EmailPICTerjamin">Email PIC Terjamin</string>
+    <string name="KonfirmasiPassword">Konfirmasi Password</string>
+    <string name="Formulir">Formulir</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="countries_array">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        ...
+    </string-array>
+    <string-array name="provinsi">
+        <item>Jawa Timur</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>DKI Jakarta</item>
+        <item>Yogyakarta</item>
+        <item>Banten</item>
+    </string-array>
+    <string-array name="kota">
+        <item>Bandung</item>
+        <item>Malang</item>
+        <item>Surabaya</item>
+        <item>Semarang</item>
+        <item>Serang</item>
+    </string-array>
+    <string-array name="klasifikasiPerusahaan">
+        <item>Klasifikasi Perusahaan</item>
+        <item>Pertanian, Kehutanan dan Perikanan</item>
+        <item>Pertambangan dan Penggalian</item>
+        <item>Industri Pengolahan</item>
+        <item>Pengadaan Listrik, Gas, Uap/Air Panas \nDan Udara Dingin</item>
+        <item>Pengelolaan Air, Pengelolaan Air Limbah, Pengelolaan dan Daur Ulang Sampah, dan Aktivitas Remediasi</item>
+        <item>Konstruksi</item>
+        <item>Perdagangan Besar dan Eceran; Reparasi dan Perawatan Mobil dan Sepeda Motor</item>
+        <item>Pengangkutan dan Pergudangan</item>
+        <item>Penyediaan Akomodasi dan Penyediaan Makan Minum</item>
+        <item>Informasi dan Komunikasi</item>
+        <item>Aktivitas Keuangan dan Asuransi</item>
+        <item>Real Estat</item>
+        <item>Aktivitas Profesional, Ilmiah dan Teknis</item>
+        <item>Aktivitas Penyewaan dan Sewa Guna Usaha Tanpa Hak Opsi, Ketenagakerjaan, Agen Perjalanan dan Penunjang
+            Usaha Lainnya
+        </item>
+        <item>Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib</item>
+        <item>Pendidikan</item>
+        <item>Aktivitas Kesehatan Manusia dan Aktivitas Sosial</item>
+        <item>Kesenian, Hiburan dan Rekreasi</item>
+        <item>Aktivitas Jasa Lainnya</item>
+        <item>Aktivitas Rumah Tangga sebagai Pemberi Kerja; Aktivitas yang Menghasilkan Barang dan Jasa oleh Rumah
+            Tangga yang Digunakan untuk Memenuhi Kebutuhan Sendiri
+        </item>
+        <item>Aktivitas Badan Internasional dan Badan Ekstra Internasional Lainnya</item>
+    </string-array>
+    <string-array name="jabatan">
+        <item>Komisaris Utama</item>
+        <item>Komisaris</item>
+        <item>Direktur Utama</item>
+        <item>Direktur</item>
+        <item>1 Level dibawah Direksi</item>
+        <item>2 Level dibawah Direksi</item>
+        <item>Lainnya</item>
+    </string-array>
+    <string-array name="wanprestasi">
+        <item>Tidak pernah wanprestasi</item>
+        <item>Pernah wanprestasi tetapi tidak klaim</item>
+        <item>Tidak pernah wanprestasi karena baru menjalankan usaha</item>
+        <item>Pernah wanprestasi dan pernah klaim</item>
+    </string-array>
+    <string-array name="subrogasi">
+        <item>Subrogasi sudah dibayar lunas</item>
+        <item>Subrogasi sudah dibayar sesuai dengan jadwal</item>
+        <item>Subrogasi sudah dibayar namun belum lunas</item>
+        <item>Subrogasi sudah dibayar tidak sesuai jadwal</item>
+        <item>Subrogasi belum dibayar</item>
+    </string-array>
+    <string-array name="hukum">
+        <item>Tidak pernah terlibat masalah hukum</item>
+        <item>Pernah terlibat masalah hukum namun sudah selesai</item>
+        <item>Pernah dan sedang dalam proses penyelesaian</item>
+    </string-array>
+    <string-array name="jenishukum">
+        <item>Gugatan wanprestasi (ingkar janji)</item>
+        <item>Gugatan perbuatan melawan hukum</item>
+        <item>Gugatan perizinan</item>
+        <item>Gugatan penipuan</item>
+        <item>Gugatan pemalsuan dokumen</item>
+    </string-array>
+    <string-array name="gugatan">
+        <item>Gugatan wanprestasi (ingkar janji)</item>
+        <item>Gugatan perbuatan melawan hukum</item>
+        <item>Gugatan perizinan</item>
+        <item>Gugatan penipuan</item>
+        <item>Gugatan pemalsuan dokumen</item>
+    </string-array>
+    <string-array name="bentukbadanHukum">
+
+        <item>Perusahaan Perseorangan</item>
+        <item>Koperasi</item>
+        <item>BUMN ( Badan Usaha Milik Negara )</item>
+        <item>BUMS ( Badan Usaha Milik Swasta )</item>
+    </string-array>
+    <string-array name="statusbadanHukum">
+        <item>kosong</item>
+    </string-array>
+    <string name="kode_validasi">
+        Silahkan Masukkan Kode Validasi \nyang Dikirimkan Melalui SMS
+    </string>
+    <style name="TextView.InputLabel" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?android:textColorHint</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+    </style>
+</resources>
+        <!--Nama Perusahaan-->
+        <!--Alamat Perusahaan-->
+        <!--Nama PIC Terjamin-->
+        <!--No HP PIC Terjamin-->
+        <!--Email PIC Terjamin-->
+        <!--Username-->
+        <!--Password-->
+        <!--Konfirmasi Password-->

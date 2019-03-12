@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".ui.formulir_A.subFragmentKeseluruhanData.ChildFragment_BOD">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:padding="10dp"
+    >
+
+
+        <TextView
+                android:id="@+id/dataNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"/>
+        <TextView
+                android:id="@+id/dataNIK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIK"/>
+        <TextView
+                android:id="@+id/dataNoTelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Telepon"/>
+        <TextView
+                android:id="@+id/dataEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"/>
+        <TextView
+                android:id="@+id/dataJabatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jabatan"/>
+
+
+        <!--<android.support.design.button.MaterialButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:layout_marginRight="70dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="Masukkan Data"-->
+        <!--style="@style/myButton"-->
+        <!--android:theme="@style/AppTheme"-->
+        <!--android:id="@+id/btn_masukkandata"-->
+        <!--/>-->
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ui.formulir_A.subFragmentKeseluruhanData.ChildFragment_PenerimaJaminan">
+
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+       <TextView
+               android:id="@+id/dataNamaPenerimaJaminan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Nama Perusahaan"/>
+       <TextView
+               android:id="@+id/dataAlamatPenerimaJaminan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Alamat perusahaan"/>
+       <TextView
+               android:id="@+id/dataProvinsiPenerimaJaminan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Provinsi"
+               android:layout_marginLeft="20dp"/>
+       <TextView
+               android:id="@+id/dataKotaPenerimaJaminan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Kota"
+               android:layout_marginLeft="20dp"/>
+       <TextView
+               android:id="@+id/dataKecamatanPenerimaJaminan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Kecamatan"
+               android:layout_marginLeft="20dp"/>
+       <TextView
+               android:id="@+id/dataKelurahanPenerimaJaminan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Kelurahan"
+               android:layout_marginLeft="20dp"/>
+       <TextView
+               android:id="@+id/dataBadanHukumPenerimaJaminan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Bentuk Badan Hukum"/>
+       <TextView
+               android:id="@+id/dataStatusBadanHukumPenerimaJaminan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Status Badan Hukum"
+       />
+   </LinearLayout>
+
+
+</FrameLayout>

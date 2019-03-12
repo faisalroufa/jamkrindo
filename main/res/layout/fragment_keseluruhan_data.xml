@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".ui.formulir_A.fragment_keseluruhan_data" android:background="#ffff">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:padding="10dp"
+>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="Data keseluruhan Anda"
+              android:textSize="30dp"
+              android:gravity="center"
+    />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="Data Perusahaan Terjamin"
+              android:textSize="20dp"
+              android:gravity="left"
+              android:layout_marginTop="10dp" android:textStyle="bold"
+    />
+        <TextView
+                android:id="@+id/dataNamaPerusahaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Perusahaan"/>
+        <TextView
+                android:id="@+id/dataAlamatPerusahaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat perusahaan"/>
+        <TextView
+                android:id="@+id/dataProvinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Provinsi"
+        android:layout_marginLeft="20dp"/>
+        <TextView
+                android:id="@+id/dataKota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kota"
+        android:layout_marginLeft="20dp"/>
+        <TextView
+                android:id="@+id/dataKecamatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kecamatan"
+        android:layout_marginLeft="20dp"/>
+        <TextView
+                android:id="@+id/dataKelurahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kelurahan"
+        android:layout_marginLeft="20dp"/>
+        <TextView
+                android:id="@+id/dataNoTelepon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Telp"/>
+        <TextView
+                android:id="@+id/dataKlasifikasiPerusahaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Klasifikasi Perusahaan"
+                android:inputType="textMultiLine"
+        />
+
+    <!--<android.support.design.button.MaterialButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_marginRight="70dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:text="Masukkan Data"-->
+            <!--style="@style/myButton"-->
+            <!--android:theme="@style/AppTheme"-->
+            <!--android:id="@+id/btn_masukkandata"-->
+    <!--/>-->
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="Data BOD"
+              android:textSize="20dp"
+              android:gravity="left"
+              android:layout_marginTop="10dp" android:textStyle="bold"
+              android:layout_marginBottom="10dp"
+    />
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/frame_BODContainer"
+    >
+    </FrameLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Penanggung Jawab Proyek"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+    <FrameLayout
+            android:id="@+id/frame_dataPenanggunJawabProyek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Person in Charge"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <FrameLayout
+            android:id="@+id/frame_dataPIC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </FrameLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Klaim Wanprestasi"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+    <FrameLayout
+            android:id="@+id/frame_wanprestasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </FrameLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Catatan Hukum"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+    <FrameLayout
+            android:id="@+id/frame_hukum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </FrameLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="Data Perusahaan Penerima Jaminan"
+              android:textSize="20dp"
+              android:gravity="left"
+              android:layout_marginTop="10dp" android:textStyle="bold"
+    />
+    <FrameLayout
+            android:id="@+id/frame_penerimaJaminan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </FrameLayout>
+</LinearLayout>
+
+</ScrollView>
